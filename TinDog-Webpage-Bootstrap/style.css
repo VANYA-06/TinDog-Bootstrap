@@ -1,0 +1,196 @@
+
+body{
+    font-family: 'Montserrat';
+    text-align: center;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+#title{
+    background-color: #ff4c68;
+    color: white;
+    text-align: left ;
+}
+
+
+.container-fluid{
+    padding: 3% 15% 7%;
+
+}
+/* Navigation Bar*/
+
+.navbar{
+    padding:0 0 4.5rem;
+    
+}
+.navbar-brand{
+    font-family: 'ubuntu';
+    font-size: 2.5rem;
+    padding-left: 0%; 
+}
+
+.nav-item{
+  padding: 0px 18px ;
+}
+
+.nav-link{
+    font-size: 2.0 rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;  
+}
+
+/* Download Button */
+
+.download-button{
+    margin: 5% 3% 5% 0;
+}
+
+/** Ttile Image ***/
+
+.title-image{
+    width: 60%;
+    transform: rotate(25deg);
+    margin-left: 40px;
+    position: absolute;
+    right: 20%;
+
+}
+
+/*** Features **/
+
+#features{
+    padding: 7% 15%;
+    background-color: white;
+    position: relative;
+}
+
+.feature-box{
+    
+    padding: 5%;
+    
+}
+.feature-head{
+    font-weight: 700;
+    font-size: 22px;
+}
+
+p{
+    color: grey;
+}
+
+/** Heading  **/
+
+
+.big-heading{  
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-weight: 900;
+    width: 120%;
+}
+
+.feature-icon {
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+
+.feature-icon:hover{
+    color: #ff4c68;
+}
+
+
+/**Testimonials **/
+
+#testimonials {
+    
+   background-color: #ef8172;
+   color: white;
+}
+
+.testimonial-text{
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 1.5;
+
+}
+.testimonial-image{
+
+    width: 10%;
+    border-radius: 100%;
+    margin: 20 px;
+}
+
+.carousel-item{
+    padding: 7% 15%;
+}
+
+#press{
+    background-color: #ef8172;
+    padding-bottom: 3%;
+
+}
+
+.press-logo{
+     width: 15%;
+     margin: 20px 20px 50px;
+
+}
+
+/** Price **/
+
+.price-text{
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+.price-head{
+    font-weight: 700;
+    font-size: 22px;
+}
+#pricing{
+padding: 100px;
+}
+
+.pricing-column {
+    padding: 3% 2% ;
+}
+
+.cta-heading{
+    font-weight: 700;
+    font-size: 22px;
+}
+
+@media(max-width: 1028px){
+    .title-image{
+        position: static;
+        transform: rotate(0);
+        
+    }
+    #title{
+        text-align: center;
+    }
+}
+#cta{
+  background-color:#ff4c68 ;
+  color: white;
+  padding: 7% 15%;
+}
+
+.cta-heading{
+
+    font-family:'Montserrat', sans-serif; 
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 1.5;   
+}
+/** Footer**/
+#footer{
+    padding: 7% 15%;
+    
+}
+
+.footer-icon{
+    margin: 20px 10px;
+}
